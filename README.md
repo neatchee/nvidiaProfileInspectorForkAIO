@@ -14,10 +14,10 @@ Full optimization NVidia graphic cards.
 ## Download
 [![GitHub release](https://img.shields.io/github/release/DeadManWalkingTO/NVidiaProfileInspectorDmW/all.svg)](https://github.com/DeadManWalkingTO/NVidiaProfileInspectorDmW/releases/latest)
 
-## Build
-
-
 ## Usage
+
+
+## Build
 
 
 ## Improvments
