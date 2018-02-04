@@ -17,6 +17,10 @@ Full optimization NVidia graphic cards.
 ## Usage
 Download, unzip and run NVidiaProfileInspectorDMW.exe
 
+For the best mining hashrate choose from sector "5 - Common":
+* CUDA - Force P2 State (Set to "Off")
+* Power managment mode (Set to "Prefer maximum performance")
+
 ## Build from Sourse
 For build needed [GIT](https://git-scm.com/downloads) (optional) and [Microsoft Build Tools 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48159)
 
