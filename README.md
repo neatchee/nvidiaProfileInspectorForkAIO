@@ -15,26 +15,28 @@ Full optimization NVidia graphic cards.
 [![GitHub release](https://img.shields.io/github/release/DeadManWalkingTO/NVidiaProfileInspectorDmW/all.svg)](https://github.com/DeadManWalkingTO/NVidiaProfileInspectorDmW/releases/latest)
 
 ## Usage
-
+Donload, unzip and run NVidiaProfileInspectorDMW.exe
 
 ## Build from Sourse
 For build need
 ### [!GIT](https://git-scm.com/downloads)
 ### [!Microsoft Build Tools 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48159)
 
-* Download Sourse [![GitHub release](https://img.shields.io/github/release/DeadManWalkingTO/NVidiaProfileInspectorDmW/all.svg)](https://github.com/DeadManWalkingTO/NVidiaProfileInspectorDmW/releases/latest)
-* Open Command Prompt and run 
+Download Sourse [![GitHub release](https://img.shields.io/github/release/DeadManWalkingTO/NVidiaProfileInspectorDmW/all.svg)](https://github.com/DeadManWalkingTO/NVidiaProfileInspectorDmW/releases/latest)
+Open Command Prompt and run 
 ```
 git clone https://github.com/DeadManWalkingTO/NVidiaProfileInspectorDmW.git
 ```
-* Open Visual C++ 2015 MSBuild Command Prompt go to NVidiaProfileInspectorDmW folder and run 
+Open Visual C++ 2015 MSBuild Command Prompt go to NVidiaProfileInspectorDmW folder and run 
 ```
 C:\msys64\home\user\NVidiaProfileInspectorDmW>msbuild nvidiaProfileInspector.sln /verbosity:minimal /t:Rebuild /p:Configuration=Release
 ```
-* The Release files are in NVidiaProfileInspectorDmW folder\nspector\bin\release
-** NVidiaProfileInspectorDMW.exe
-** NVidiaProfileInspectorDMW.exe.config
-** Reference.xml
+The Release files are in NVidiaProfileInspectorDmW folder\nspector\bin\release
+```
+NVidiaProfileInspectorDMW.exe
+NVidiaProfileInspectorDMW.exe.config
+Reference.xml
+```
 
 ## Improvments
 Please inform me for aditional Improvments.
