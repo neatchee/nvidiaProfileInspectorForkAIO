@@ -3,13 +3,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProductVersion>10.0.20506</ProductVersion>
+    <ProductVersion>11.0.10000</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{27B20027-E783-4ADC-AF16-40A49463F4BF}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>nspector</RootNamespace>
-    <AssemblyName>nvidiaProfileInspector</AssemblyName>
+    <AssemblyName>NVidiaProfileInspectorDmW</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <PlatformTarget>x86</PlatformTarget>
