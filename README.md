@@ -18,9 +18,7 @@ Full optimization NVidia graphic cards.
 Donload, unzip and run NVidiaProfileInspectorDMW.exe
 
 ## Build from Sourse
-For build needed
-[!GIT](https://git-scm.com/downloads) (optional)
-[!Microsoft Build Tools 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48159)
+For build needed [GIT](https://git-scm.com/downloads) (optional) and [Microsoft Build Tools 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48159)
 
 Download Sourse [![GitHub release](https://img.shields.io/github/release/DeadManWalkingTO/NVidiaProfileInspectorDmW/all.svg)](https://github.com/DeadManWalkingTO/NVidiaProfileInspectorDmW/releases/latest)
 Open Command Prompt and run 
