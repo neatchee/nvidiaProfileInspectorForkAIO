@@ -27,7 +27,7 @@ git clone https://github.com/DeadManWalkingTO/NVidiaProfileInspectorDmW.git
 ```
 Open Visual C++ 2015 MSBuild Command Prompt go to NVidiaProfileInspectorDmW folder and run 
 ```
-C:\msys64\home\user\NVidiaProfileInspectorDmW>msbuild nvidiaProfileInspector.sln /verbosity:minimal /t:Rebuild /p:Configuration=Release
+C:\msys64\home\user\NVidiaProfileInspectorDmW>msbuild nvidiaProfileInspectorDmW.sln /verbosity:minimal /t:Rebuild /p:Configuration=Release
 ```
 The Release files are in NVidiaProfileInspectorDmW folder\nspector\bin\release
 ```
