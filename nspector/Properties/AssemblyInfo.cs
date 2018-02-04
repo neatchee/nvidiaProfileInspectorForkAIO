@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("NVIDIA Profile Inspector")]
-[assembly: AssemblyCopyright("©2017 by Orbmu2k")]
+[assembly: AssemblyCopyright("©2018 by DeadManWalking")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
