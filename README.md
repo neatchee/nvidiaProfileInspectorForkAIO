@@ -44,6 +44,9 @@ Please inform me for aditional Improvments.
 
 ## Donations
 
+BTC
+* 15G2BTErGg3i8zTmLfKYStUKtqDLXz6Jc9
+
 ETH
 * 0x7013275311fc37ccc1e40193D75086293eCb43A4
 
