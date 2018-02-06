@@ -14,6 +14,14 @@
 
 NVidiaProfileInspectorDmW is a Fork from Orbmu2k/nvidiaProfileInspector for full optimization that increase hashrate on NVidia graphic cards.
 
+## Table of Contents
+- [Features](#features)
+- [Download](#download)
+- [Usage](#usage)
+- [Feedback](#feedback)
+- [License](#license)
+- [Donations](#donations)
+
 ## Features
 Full optimization NVidia graphic cards.
 
@@ -27,7 +35,7 @@ For the best mining hashrate choose from sector "5 - Common":
 * CUDA - Force P2 State (Set to "Off")
 * Power managment mode (Set to "Prefer maximum performance")
 
-## Build from Sourse
+## Build
 For build needed [GIT](https://git-scm.com/downloads) (optional) and [Microsoft Build Tools 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48159)
 
 Open Command Prompt and run 
@@ -45,7 +53,7 @@ NVidiaProfileInspectorDMW.exe.config
 Reference.xml
 ```
 
-## Improvments
+## Feedback
 Please inform me for aditional Improvments.
 
 ## Donations
