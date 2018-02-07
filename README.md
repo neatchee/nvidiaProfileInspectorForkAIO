@@ -17,6 +17,7 @@ NVidiaProfileInspectorDmW is a Fork from Orbmu2k/nvidiaProfileInspector for full
 ## Table of Contents
 - [Features](#features)
 - [Download](#download)
+- [Install](#install)
 - [Usage](#usage)
 - [Build](#build)
 - [Feedback](#feedback)
