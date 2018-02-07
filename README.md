@@ -26,7 +26,7 @@ NVidiaProfileInspectorDmW is a Fork from Orbmu2k/nvidiaProfileInspector for full
 Full optimization NVidia graphic cards.
 
 ## Download
-Download [Last release here.](https://github.com/DeadManWalkingTO/NVidiaProfileInspectorDmW/releases/latest)
+Download [Last release here.](../../releases/latest)
 
 ## Usage
 Download, unzip and run NVidiaProfileInspectorDMW.exe
