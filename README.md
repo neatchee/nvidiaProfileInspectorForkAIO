@@ -29,6 +29,9 @@ Full optimization NVidia graphic cards.
 ## Download
 Download [Last release here.](../../releases/latest)
 
+## Install
+Standalone executable is provided in the [Releases](../../releases/latest) section. (No installation required)
+
 ## Usage
 Download, unzip and run NVidiaProfileInspectorDMW.exe
 
