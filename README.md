@@ -2,7 +2,7 @@
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg)](https://github.com/RichardLitt/standard-readme)
 [![GitHub release](https://img.shields.io/github/release/DeadManWalkingTO/NVidiaProfileInspectorDmW/all.svg)](../../releases/latest)
 [![GitHub Release Date](https://img.shields.io/github/release-date-pre/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](../../releases/latest)
-[![GitHub top language](https://img.shields.io/github/languages/top/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](./)
+[![GitHub top language](https://img.shields.io/github/languages/top/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](../../)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](https://github.com/DeadManWalkingTO/NVidiaProfileInspectorDmW)
 [![GitHub license](https://img.shields.io/github/license/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](https://github.com/DeadManWalkingTO/NVidiaProfileInspectorDmW/blob/master/LICENSE)
 
