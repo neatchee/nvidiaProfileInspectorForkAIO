@@ -6,6 +6,7 @@
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](../../)
 [![GitHub license](https://img.shields.io/github/license/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](./LICENSE)
 
+[![Github All Releases](https://img.shields.io/github/downloads/DeadManWalkingTO/NVidiaProfileInspectorDmW/total.svg)](../../releases/latest)
 [![GitHub last commit](https://img.shields.io/github/last-commit/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](../../)
 [![Github commits (since latest release)](https://img.shields.io/github/commits-since/DeadManWalkingTO/NVidiaProfileInspectorDmW/latest.svg)](../../)
 [![GitHub stars](https://img.shields.io/github/stars/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](../../stargazers)
