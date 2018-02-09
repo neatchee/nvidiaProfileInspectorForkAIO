@@ -1,5 +1,5 @@
 # NVidiaProfileInspectorDmW
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg)](https://github.com/RichardLitt/standard-readme)
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg)](./README.md)
 [![GitHub release](https://img.shields.io/github/release/DeadManWalkingTO/NVidiaProfileInspectorDmW/all.svg)](../../releases/latest)
 [![GitHub Release Date](https://img.shields.io/github/release-date-pre/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](../../releases/latest)
 [![GitHub top language](https://img.shields.io/github/languages/top/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](../../)
