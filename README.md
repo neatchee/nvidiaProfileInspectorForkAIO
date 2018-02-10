@@ -63,7 +63,7 @@ Please inform me for aditional Improvments.
 
 ## License
 
-[MIT © DeadManWalking (DeadManWalkingTO-GitHub).](./LICENSE)
+[MIT](./LICENSE)
 
 ## Donations
 
