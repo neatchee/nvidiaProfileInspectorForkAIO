@@ -1,0 +1,7 @@
+# 2018 DeadManWalking (DeadManWalkingTO-GitHub)
+
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Custom for Visual Studio
+*.cs diff=csharp
