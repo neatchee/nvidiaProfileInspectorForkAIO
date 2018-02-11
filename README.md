@@ -63,7 +63,7 @@ Please inform me for aditional Improvments.
 
 ## License
 
-[MIT](./LICENSE)
+Licensed under the [MIT LICENSE](./LICENSE)
 
 ## Donations
 
