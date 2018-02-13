@@ -1,5 +1,5 @@
 # NVidiaProfileInspectorDmW
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg)](./README.md)
+[![HitCount](http://hits.dwyl.io/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](../../)
 [![GitHub release](https://img.shields.io/github/release/DeadManWalkingTO/NVidiaProfileInspectorDmW/all.svg)](../../releases/latest)
 [![GitHub Release Date](https://img.shields.io/github/release-date-pre/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](../../releases/latest)
 [![GitHub top language](https://img.shields.io/github/languages/top/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](../../)
@@ -10,6 +10,7 @@
 [![Github commits (since latest release)](https://img.shields.io/github/commits-since/DeadManWalkingTO/NVidiaProfileInspectorDmW/latest.svg)](../../)
 [![GitHub stars](https://img.shields.io/github/stars/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](../../stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](../../network)
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg)](./README.md)
 >Nvidia GPU Profile Inspector by DeadManWalking (DeadManWalkingTO-GitHub)
 
 NVidiaProfileInspectorDmW is a Fork from Orbmu2k/nvidiaProfileInspector for full optimization that increase hashrate on NVidia graphic cards.
