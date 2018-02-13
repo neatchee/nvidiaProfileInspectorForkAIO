@@ -60,13 +60,13 @@ Reference.xml
 ```
 
 ## Feedback
-Please inform me for aditional Improvments. [Open an Issue.](../../issues)
+Please inform me for aditional Improvments. [Open an Issue](../../issues).
 
 If you like please give a [GitHub Star](../../stargazers) (it's free!).
 
 ## License
 
-Licensed under the [MIT LICENSE](./LICENSE)
+Licensed under the [MIT LICENSE](./LICENSE).
 
 ## Donations
 
