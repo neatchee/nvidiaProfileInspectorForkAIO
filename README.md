@@ -64,12 +64,16 @@ Please inform me for aditional Improvments. [Open an Issue](../../issues).
 
 If you like please give a [GitHub Star](../../stargazers) (it's free!).
 
-## License
+## Maintainers
+[DeadManWalking (DeadManWalkingTO-GitHub)](https://github.com/DeadManWalkingTO).
 
+## Contribute
+Feel free to open an [Issue](../../issues/new) or submit [Pull Requests](../../pulls).
+
+## License
 Licensed under the [MIT LICENSE](./LICENSE).
 
 ## Donations
-
 BTC
 * 15G2BTErGg3i8zTmLfKYStUKtqDLXz6Jc9
 
