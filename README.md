@@ -11,7 +11,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](../../stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](../../network)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg)](./README.md)
->Nvidia GPU Profile Inspector by DeadManWalking (DeadManWalkingTO-GitHub)
+>Nvidia GPU Profile Inspector by [DeadManWalking (DeadManWalkingTO-GitHub)](https://github.com/DeadManWalkingTO)
 
 NVidiaProfileInspectorDmW is a Fork from Orbmu2k/nvidiaProfileInspector for full optimization that increase hashrate on NVidia graphic cards.
 
