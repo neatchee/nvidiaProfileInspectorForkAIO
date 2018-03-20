@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmExportProfiles));
             this.lvProfiles = new System.Windows.Forms.ListView();
             this.chProfileName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.lProfiles = new System.Windows.Forms.Label();
@@ -154,12 +155,14 @@
             this.Controls.Add(this.btnExport);
             this.Controls.Add(this.lProfiles);
             this.Controls.Add(this.lvProfiles);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(464, 319);
             this.Name = "frmExportProfiles";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "frmExportProfiles";
+            this.Load += new System.EventHandler(this.frmExportProfiles_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

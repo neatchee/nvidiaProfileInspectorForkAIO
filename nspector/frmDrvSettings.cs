@@ -15,6 +15,7 @@ using nspector.Native.WINAPI;
 using nvw = nspector.Native.NVAPI2.NvapiDrsWrapper;
 using System.Text.RegularExpressions;
 using System.Diagnostics;
+using DmW;
 
 namespace nspector
 {
@@ -32,7 +33,7 @@ namespace nspector
         private bool _activated = false;
         private bool _isStartup = true;
         private bool _skipScan = false;
-        
+
         private string _baseProfileName = "";
         private bool _isWin7TaskBar = false;
         private int _lastComboRowIndex = -1;
@@ -224,7 +225,7 @@ namespace nspector
                                     itm = v;
 
                                 cbValues.Items.Add(itm);
-                                
+
                             }
                         }
 
@@ -268,7 +269,7 @@ namespace nspector
                     cbValues.Visible = true;
 
 
-                    
+
                 }
             }
             else
@@ -310,7 +311,7 @@ namespace nspector
         {
             var settingId = (uint)cbValues.Tag;
             var activeImages = new[] { 0, 2 };
-            
+
             int idx = GetListViewIndexOfSetting(settingId);
             if (idx != -1)
             {
@@ -463,7 +464,7 @@ namespace nspector
                 Application.ProductName
                 );
 
-            Text = titleText;
+            Text = titleText + " - Modified by DeadManWalking";
         }
 
         private static void InitMessageFilter(IntPtr handle)
@@ -481,7 +482,7 @@ namespace nspector
                 DragAcceptNativeHelper.ChangeWindowMessageFilter(DragAcceptNativeHelper.WM_COPYGLOBALDATA, DragAcceptNativeHelper.MSGFLT_ADD);
             }
         }
-        
+
         internal frmDrvSettings() : this(false, false) { }
         internal frmDrvSettings(bool showCsnOnly, bool skipScan)
         {
@@ -492,7 +493,6 @@ namespace nspector
             SetupDropFilesNative();
             SetupToolbar();
             SetupDpiAdjustments();
-
             tscbShowCustomSettingNamesOnly.Checked = showCsnOnly;
             Icon = Icon.ExtractAssociatedIcon(Application.ExecutablePath);
         }
@@ -524,7 +524,7 @@ namespace nspector
                 Height = Screen.GetWorkingArea(this).Height - 20;
             }
         }
-        
+
         private void RefreshModifiesProfilesDropDown()
         {
             tsbModifiedProfiles.DropDownItems.Clear();
@@ -557,6 +557,9 @@ namespace nspector
             tssbRemoveApplication.Enabled = false;
 
             InitResetValueTooltip();
+
+            //Modified by DeadManWalking
+            DmW.DmWcode.NewVersionDownload();
         }
 
         private void InitResetValueTooltip()
@@ -632,7 +635,7 @@ namespace nspector
                 catch { }
             }
         }
-        
+
         private void AddToModifiedProfiles(string profileName, bool userProfile = false)
         {
             if (!_scanner.UserProfiles.Contains(profileName) && profileName != _baseProfileName && userProfile)
@@ -670,7 +673,7 @@ namespace nspector
             else
                 mi.Invoke();
         }
-        
+
         private void frmDrvSettings_OnModifiedScanDoneAndShowExport()
         {
             InvokeUi(this, () =>
@@ -701,13 +704,13 @@ namespace nspector
                 pbMain.Value = 0;
                 pbMain.Enabled = false;
                 SetTaskbarProgress(0);
-                
+
                 tscbShowScannedUnknownSettings.Enabled = true;
             });
 
             StartModifiedProfilesScan(false);
         }
-        
+
         private void frmDrvSettings_OnScanDoneDoNothing()
         {
             _meta.ResetMetaCache();
@@ -733,7 +736,7 @@ namespace nspector
             });
 
         }
-        
+
         private void InitScannerEvents()
         {
             _scanner.OnSettingScanProgress += new Common.SettingScanProgressEvent(frmDrvSettings_OnSettingScanProgress);
@@ -745,7 +748,7 @@ namespace nspector
         {
             pbMain.Minimum = 0;
             pbMain.Maximum = 100;
-            
+
             _scanner.OnModifiedProfilesScanDone -= new Common.SettingScanDoneEvent(frmDrvSettings_OnScanDoneDoNothing);
             _scanner.OnModifiedProfilesScanDone -= new Common.SettingScanDoneEvent(frmDrvSettings_OnModifiedScanDoneAndShowExport);
 
@@ -774,7 +777,7 @@ namespace nspector
 
             _scanner.StartScanForPredefinedSettingsAsync();
         }
-      
+
         private void ScanProfilesSilent(bool scanPredefined, bool showProfileDialog)
         {
             if (_skipScan)
@@ -1146,7 +1149,7 @@ namespace nspector
                 cbProfiles.Select(cbProfiles.Text.Length, 0);
             }
         }
-        
+
 
         public static void ShowImportDoneMessage(string importReport)
         {
@@ -1214,6 +1217,11 @@ namespace nspector
                 var settingName = lvSettings.SelectedItems[0].Text;
                 Clipboard.SetText(string.Format($"0x{settingId:X8} {settingName}"));
             }
+        }
+
+        private void tscbShowCustomSettingNamesOnly_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

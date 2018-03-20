@@ -11,7 +11,7 @@ namespace nspector.Common
     public class DrsSessionScope
     {
 
-        public static volatile IntPtr GlobalSession;
+        private static volatile IntPtr GlobalSession; // Modified by DeadManWalking
 
         public static volatile bool HoldSession = true;
 

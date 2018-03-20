@@ -90,11 +90,12 @@
     <CodeAnalysisFailOnMissingRules>true</CodeAnalysisFailOnMissingRules>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <Prefer32Bit>false</Prefer32Bit>
+    <Optimize>true</Optimize>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
-    <Optimize>false</Optimize>
+    <Optimize>true</Optimize>
     <DebugType>none</DebugType>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <LangVersion>default</LangVersion>
@@ -108,7 +109,7 @@
     <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>n1.ico</ApplicationIcon>
+    <ApplicationIcon>Images\Nvidia.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject>nspector.Program</StartupObject>
@@ -127,6 +128,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="dmw.cs" />
     <Compile Include="Common\CustomSettings\CustomSetting.cs" />
     <Compile Include="Common\CustomSettings\CustomSettingValue.cs" />
     <Compile Include="Common\DrsDecrypterService.cs" />
@@ -237,6 +239,7 @@
     <Content Include="CustomSettingNames.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Images\Nvidia.ico" />
     <Content Include="Native\NVAPI\NvApiDriverSettings.h" />
     <Content Include="Reference.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -260,7 +263,6 @@
     <None Include="Images\text_binary.png" />
     <None Include="Images\window_application_add.png" />
     <None Include="Images\window_application_delete.png" />
-    <Content Include="n1.ico" />
     <None Include="Images\home_sm.png" />
     <Content Include="Images\shield16.ico" />
   </ItemGroup>

@@ -113,8 +113,10 @@ namespace nspector
                 btnExport.Enabled = false;
         }
 
-       
+        private void frmExportProfiles_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 
 }

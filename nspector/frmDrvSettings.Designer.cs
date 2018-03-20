@@ -334,6 +334,7 @@
             this.tscbShowCustomSettingNamesOnly.Size = new System.Drawing.Size(24, 22);
             this.tscbShowCustomSettingNamesOnly.Text = "Show the settings and values from CustomSettingNames file only.";
             this.tscbShowCustomSettingNamesOnly.CheckedChanged += new System.EventHandler(this.cbCustomSettingsOnly_CheckedChanged);
+            this.tscbShowCustomSettingNamesOnly.Click += new System.EventHandler(this.tscbShowCustomSettingNamesOnly_Click);
             // 
             // tsSep5
             // 
@@ -546,6 +547,7 @@
             this.Controls.Add(this.pbMain);
             this.Controls.Add(this.btnResetValue);
             this.Controls.Add(this.cbValues);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MinimumSize = new System.Drawing.Size(880, 348);
             this.Name = "frmDrvSettings";
