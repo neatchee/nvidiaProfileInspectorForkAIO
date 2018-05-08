@@ -4,13 +4,18 @@
 [![GitHub Release Date](https://img.shields.io/github/release-date-pre/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](../../releases/latest)
 [![GitHub top language](https://img.shields.io/github/languages/top/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](../../)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](../../)
-[![GitHub license](https://img.shields.io/github/license/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](./LICENSE)
 
 [![GitHub last commit](https://img.shields.io/github/last-commit/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](../../)
 [![Github commits (since latest release)](https://img.shields.io/github/commits-since/DeadManWalkingTO/NVidiaProfileInspectorDmW/latest.svg)](../../)
 [![GitHub stars](https://img.shields.io/github/stars/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](../../stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](../../network)
+[![GitHub issues](https://img.shields.io/github/issues/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](../../issues)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](../../issues)
+
+[![DMCA Protection](https://img.shields.io/badge/DMCA-Protected-brightgreen.svg)](https://www.dmca.com/Takedowns.aspx?r=m)
+[![GitHub license](https://img.shields.io/github/license/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](./LICENSE)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg)](./README.md)
+
 >Nvidia GPU Profile Inspector by [DeadManWalking (DeadManWalkingTO-GitHub)](https://github.com/DeadManWalkingTO)
 
 NVidiaProfileInspectorDmW is a Fork from Orbmu2k/nvidiaProfileInspector for full optimization that increase hashrate on NVidia graphic cards. 
