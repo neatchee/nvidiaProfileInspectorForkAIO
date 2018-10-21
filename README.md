@@ -74,7 +74,8 @@ Reference.xml
 
 ## Common Issues
 
-### NVAPI_ACCESS_DENIED
+#### NVAPI_ACCESS_DENIED
+Issue [#9](../../issues/9) Status: Solved.
 
 ## Feedback
 Please inform me for aditional Improvments. [Open an Issue](../../issues).
