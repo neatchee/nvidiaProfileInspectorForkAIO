@@ -551,11 +551,12 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MinimumSize = new System.Drawing.Size(880, 348);
             this.Name = "frmDrvSettings";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "nSpector - Driver Profile Settings";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.Text = "nSpector - Driver Profile Settings - DeadManWalkingTO";
             this.Activated += new System.EventHandler(this.frmDrvSettings_Activated);
             this.Load += new System.EventHandler(this.frmDrvSettings_Load);
             this.Shown += new System.EventHandler(this.frmDrvSettings_Shown);
+            this.Move += new System.EventHandler(this.frmDrvSettings_Move);
             this.tsMain.ResumeLayout(false);
             this.tsMain.PerformLayout();
             this.ResumeLayout(false);

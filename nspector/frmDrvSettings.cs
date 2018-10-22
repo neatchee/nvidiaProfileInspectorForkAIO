@@ -16,6 +16,7 @@ using nvw = nspector.Native.NVAPI2.NvapiDrsWrapper;
 using System.Text.RegularExpressions;
 using System.Diagnostics;
 using DmW;
+using Microsoft.Win32;
 
 namespace nspector
 {
@@ -548,6 +549,9 @@ namespace nspector
             SetupLayout();
             SetTitleVersion();
 
+            //Modified by DeadManWalking
+            Read_DmW_Data();
+
             RefreshProfilesCombo();
             cbProfiles.Text = GetBaseProfileName();
 
@@ -560,6 +564,33 @@ namespace nspector
 
             //Modified by DeadManWalking
             DmW.DmWcode.NewVersionDownload();
+        }
+
+        private void Set_DmW_Data()
+        //Modified by DeadManWalking
+        {
+            RegistryKey key = Registry.CurrentUser.CreateSubKey(@"SOFTWARE\NVidiaProfileInspectorDmW");
+            key.SetValue("X", this.Location.X);
+            key.SetValue("Y", this.Location.Y);
+            key.Close();
+        }
+
+        private void Read_DmW_Data()
+        //Modified by DeadManWalking
+        {
+            RegistryKey key = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\NVidiaProfileInspectorDmW");
+            if (key != null)
+            {
+                int X = int.Parse(key.GetValue("X").ToString());
+                int Y = int.Parse(key.GetValue("Y").ToString());
+                if (key.GetValue("X") != null) this.Location = new Point(X, Y);
+            }
+        }
+
+        private void frmDrvSettings_Move(object sender, System.EventArgs e)
+        //Modified by DeadManWalking
+        {
+            Set_DmW_Data();
         }
 
         private void InitResetValueTooltip()
