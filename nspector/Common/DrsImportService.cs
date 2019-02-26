@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Policy;
@@ -71,7 +71,7 @@ namespace nspector.Common
                 {
                     result.Executeables.Add(app.appName);
                 }
-                
+
                 var settings = GetProfileSettings(hSession, hProfile);
                 foreach (var setting in settings)
                 {

@@ -550,6 +550,8 @@ namespace nspector
             SetTitleVersion();
 
             //Modified by DeadManWalking
+            CheckResetStartUpXY();
+            //Modified by DeadManWalking
             Read_DmW_Data();
 
             RefreshProfilesCombo();
@@ -584,6 +586,30 @@ namespace nspector
                 int X = int.Parse(key.GetValue("X").ToString());
                 int Y = int.Parse(key.GetValue("Y").ToString());
                 if (key.GetValue("X") != null) this.Location = new Point(X, Y);
+            }
+        }
+
+        private void CheckResetStartUpXY()
+        //Modified by DeadManWalking
+        {
+            var result = AutoClosingMessageBox.Show(
+            text: "Reset Window Position?",
+            caption: "Reset",
+            timeout: 2500,
+            buttons: MessageBoxButtons.YesNo,
+            defaultResult: System.Windows.Forms.DialogResult.Yes);
+            if (result == System.Windows.Forms.DialogResult.Yes)
+            {
+                //Yes
+                RegistryKey key = Registry.CurrentUser.CreateSubKey(@"SOFTWARE\NVidiaProfileInspectorDmW");
+                key.SetValue("X", 1);
+                key.SetValue("Y", 1);
+                key.Close();
+            }
+            else
+            {
+                //No
+                //do nothing
             }
         }
 

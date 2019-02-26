@@ -32,7 +32,7 @@
       <GroupName>1 - Compatibility</GroupName>
       <SettingValues />
     </CustomSetting>
-
+    
     <CustomSetting>
       <UserfriendlyName>SLI compatibility bits (DX10 + DX11)</UserfriendlyName>
       <HexSettingID>0x00A06946</HexSettingID>
@@ -75,6 +75,14 @@
           </MaskValues>
         </CustomSettingMask>
       </SettingMasks>
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>SLI compatibility bits (OGL)</UserfriendlyName>
+      <HexSettingID>0x209746C1</HexSettingID>
+      <Description />
+      <GroupName>1 - Compatibility</GroupName>
+      <SettingValues />
     </CustomSetting>
 
     <CustomSetting>
@@ -2723,6 +2731,24 @@
       <SettingMasks />
     </CustomSetting>
     
+    <CustomSetting>
+      <UserfriendlyName>Anisotropic filtering HQ Fix</UserfriendlyName>
+      <HexSettingID>0X00CE2692</HexSettingID>
+      <GroupName>4 - Texture Filtering</GroupName>
+      <MinRequiredDriverVersion>418.00</MinRequiredDriverVersion>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Off</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>On</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
 <!-- Group 5 - Common -->
 
     <CustomSetting>
@@ -2960,6 +2986,24 @@
           <HexValue>0x00312e33</HexValue>
         </CustomSettingValue>
       </SettingValues>
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>Optimize for Compute Performance</UserfriendlyName>
+      <HexSettingID>0x10C158AD</HexSettingID>
+      <Description />
+      <GroupName>5 - Common</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Off</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>On</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
     </CustomSetting>
     
 <!-- Group 7 - Stereo -->

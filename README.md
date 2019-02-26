@@ -27,12 +27,12 @@ NVidiaProfileInspectorDmW is a Fork from Orbmu2k/nvidiaProfileInspector for full
 - [Install](#install)
 - [Usage](#usage)
 - [Build](#build)
-- [Common Issues](#common-issues)
 - [Feedback](#feedback)
 - [Maintainers](#maintainers)
 - [Contribute](#contribute)
 - [License](#license)
 - [Donations](#donations)
+- [Common Issues](#common-issues)
 
 ## Features
 Full optimization NVidia graphic cards.
@@ -67,15 +67,11 @@ msbuild nvidiaProfileInspectorDmW.sln /verbosity:minimal /t:Rebuild /p:Configura
 ```
 Release files build in NVidiaProfileInspectorDmW\nspector\bin\release
 ```
+AutoClosingMessageBox.dll
 NVidiaProfileInspectorDMW.exe
 NVidiaProfileInspectorDMW.exe.config
 Reference.xml
 ```
-
-## Common Issues
-
-#### NVAPI_ACCESS_DENIED
-Issue [#9](../../issues/9) | Status: **Solved**.
 
 ## Feedback
 Please inform me for aditional Improvments. [Open an Issue](../../issues).
@@ -100,7 +96,15 @@ Ethereum Address (ETH):
 * 0x7013275311fc37ccc1e40193D75086293eCb43A4
 
 Monero Address (XMR):
-* 41s1ALMHsW8EiYU31NCT3nWJqsShgZJXQGwXUsTbb8TdfDtiEfPrjeCiqDD3pZ5q2uAsgPM6ykJ3DYDUsZk2LJ7xFmbWaLS
+* 42q4HmXdsp1XgNCrDmPubL8ndtgG2JBtmZMEn28sB4XtEGHhwYojvB65HXPidByfNUFSzxg6ysQsHUHa3ZSrsKLX5pTkCET
 
 Aeon Address (AEON):
 * WmssXd9iiPCjjhfVyqYvPzhBuPKkZ5wkVXP5q8L7aYxfPJG5Z8nLyLJXUzxMeuvna9dCEBAmqBzCRWezF6AQqUS51EDJtjAYL
+
+## Common Issues
+
+#### NVAPI_ACCESS_DENIED:
+Issue [#9](../../issues/9) | Status: **Solved**.
+#### Application window is not visible:
+Issue [#12](../../issues/12) | Status: **Solved**.
+Issue [#13](../../issues/13) | Status: **Solved**.

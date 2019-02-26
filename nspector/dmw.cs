@@ -6,6 +6,7 @@ using System.Net.NetworkInformation;
 using System.Net;
 using System.Reflection;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace DmW
 {
