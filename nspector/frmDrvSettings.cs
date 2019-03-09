@@ -1280,6 +1280,12 @@ namespace nspector
         {
 
         }
+
+                private void lvSettings_KeyDown(object sender, KeyEventArgs e)
+        {
+
+        }
+
     }
 }
 
