@@ -19,7 +19,21 @@
 
 >Nvidia GPU Profile Inspector by [DeadManWalking (DeadManWalkingTO-GitHub)](https://github.com/DeadManWalkingTO)
 
-NVidiaProfileInspectorDmW is a Fork from Orbmu2k/nvidiaProfileInspector for full optimization that increase hashrate on NVidia graphic cards. Updated settings constants to **R418**.
+NVidiaProfileInspectorDmW is a Fork from Orbmu2k/nvidiaProfileInspector for full optimization that increase hashrate on NVidia graphic cards.
+- Updated settings constants to [**R418**](https://www.nvidia.com/download/driverResults.aspx/143117/en-us).
+- Microsoft [**.NET Framework v4.0**](https://www.microsoft.com/en-us/download/details.aspx?id=17718)
+- Supported Operating System
+  - Windows XP SP3
+  - Windows Server 2003 SP2
+  - Windows Vista SP1 or later
+  - Windows Server 2008
+  - Windows 7
+  - Windows Server 2008 R2
+  - Windows 7 SP1
+  - Windows Server 2008 R2 SP1
+- Supported Architectures:
+  - x86
+  - x64
 
 ## Table of Contents
 - [Features](#features)
