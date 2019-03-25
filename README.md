@@ -21,7 +21,9 @@
 
 NVidiaProfileInspectorDmW is a Fork from Orbmu2k/nvidiaProfileInspector for full optimization that increase hashrate on NVidia graphic cards.
 - Updated settings constants to [**R418**](https://www.nvidia.com/download/driverResults.aspx/143117/en-us).
-- Microsoft [**.NET Framework v4.0**](https://www.microsoft.com/en-us/download/details.aspx?id=17718)
+- Microsoft **.NET Framework v4.0**
+  - [Standalone Installer](https://www.microsoft.com/en-us/download/details.aspx?id=17718)
+  - [Web Installer](https://www.microsoft.com/en-us/download/details.aspx?id=17851)
 - Supported Operating System
   - Windows XP SP3
   - Windows Server 2003 SP2
