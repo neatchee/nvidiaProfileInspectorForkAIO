@@ -79,9 +79,9 @@ For the best mining hashrate choose from sector "5 - Common":
 
 ### AutoBuild
 
-Download [Latest Master](https://github.com/DeadManWalkingTO/NVidiaProfileInspectorDmW/archive/master.zip)
+Download [Latest Master](https://github.com/DeadManWalkingTO/NVidiaProfileInspectorDmW/archive/master.zip).
 
-Unzip
+Unzip using your favorite tool, for example, [7-Zip](https://www.7-zip.org/)
 
 Run AutoBuild.bat
 
