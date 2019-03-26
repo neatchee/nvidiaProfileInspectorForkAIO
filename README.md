@@ -36,6 +36,7 @@ NVidiaProfileInspectorDmW is a Fork from Orbmu2k/nvidiaProfileInspector for full
 - Supported Architectures:
   - x86
   - x64
+- Potrable Apps [Original App Format](https://portableapps.com/)
 
 ## Table of Contents
 - [Features](#features)
@@ -55,6 +56,10 @@ Full optimization NVidia graphic cards.
 
 Autocheck for new version since version 3.2.5.5.
 
+AutoBuild bat script.
+
+[Potrable Apps](https://portableapps.com/) Original App Format.
+
 Lots of modifications.
 
 ## Download
@@ -71,6 +76,16 @@ For the best mining hashrate choose from sector "5 - Common":
 * Power managment mode (Set to "Prefer maximum performance")
 
 ## Build
+
+### AutoBuild
+
+Download [Latest Master](https://github.com/DeadManWalkingTO/NVidiaProfileInspectorDmW/archive/master.zip)
+
+Unzip
+
+Run AutoBuild.bat
+
+### Classic
 For build needed [GIT](https://git-scm.com/downloads) (optional) and [Microsoft Build Tools 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48159)
 
 Open Command Prompt and run 
