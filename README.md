@@ -36,7 +36,7 @@ NVidiaProfileInspectorDmW is a Fork from Orbmu2k/nvidiaProfileInspector for full
 - Supported Architectures:
   - x86
   - x64
-- Potrable Apps [Original App Format](https://portableapps.com/)
+- [Potrable Apps](https://portableapps.com/) Original App Format.
 
 ## Table of Contents
 - [Features](#features)
