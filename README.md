@@ -26,18 +26,18 @@ NVidiaProfileInspectorDmW is a Fork from Orbmu2k/nvidiaProfileInspector for full
   - [Web Installer](https://www.microsoft.com/en-us/download/details.aspx?id=17851)
 - Supported Operating System
   - Windows XP SP3
-  - Windows Server 2003 SP2
   - Windows Vista SP1 or later
-  - Windows Server 2008
   - Windows 7
-  - Windows Server 2008 R2
   - Windows 7 SP1
-  - Windows Server 2008 R2 SP1
-  - Windows Server 2012
   - Windows 8
-  - Windows Server 2012 R2
   - Windows 8.1
   - Windows 10
+  - Windows Server 2003 SP2
+  - Windows Server 2008
+  - Windows Server 2008 R2
+  - Windows Server 2008 R2 SP1
+  - Windows Server 2012
+  - Windows Server 2012 R2
   - Windows Server 2016
   - Windows Server 2019
   
