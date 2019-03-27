@@ -33,9 +33,18 @@ NVidiaProfileInspectorDmW is a Fork from Orbmu2k/nvidiaProfileInspector for full
   - Windows Server 2008 R2
   - Windows 7 SP1
   - Windows Server 2008 R2 SP1
+  - Windows Server 2012
+  - Windows 8
+  - Windows Server 2012 R2
+  - Windows 8.1
+  - Windows 10
+  - Windows Server 2016
+  - Windows Server 2019
+  
 - Supported Architectures:
   - x86
   - x64
+  
 - [Potrable Apps](https://portableapps.com/) Original App Format.
 
 ## Table of Contents
