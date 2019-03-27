@@ -104,6 +104,9 @@ NVidiaProfileInspectorDMW.exe.config
 Reference.xml
 ```
 
+### Optional
+Rebuild NVidiaProfileInspectorDmWPortable.exe with [PortableApps.com Launcher](https://portableapps.com/apps/development/portableapps.com_launcher)
+
 ## Feedback
 Please inform me for aditional Improvments. [Open an Issue](../../issues).
 
