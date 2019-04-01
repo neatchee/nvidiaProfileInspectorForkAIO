@@ -1,0 +1,2 @@
+[diff "localizablensh"]
+textconv = "iconv -f utf-16 -t utf-8"
