@@ -1,5 +1,5 @@
 # NVidiaProfileInspectorDmW
-[![HitCount](http://hits.dwyl.io/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](../../)
+[![Hits](https://hits.sh/github.com/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg?style=plastic&label=HitCount)](../../)
 [![GitHub release](https://img.shields.io/github/release/DeadManWalkingTO/NVidiaProfileInspectorDmW/all.svg)](../../releases/latest)
 [![GitHub Release Date](https://img.shields.io/github/release-date-pre/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](../../releases/latest)
 [![GitHub top language](https://img.shields.io/github/languages/top/DeadManWalkingTO/NVidiaProfileInspectorDmW.svg)](../../)
