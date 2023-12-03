@@ -133,10 +133,10 @@ Licensed under the [MIT LICENSE](./LICENSE).
 ## Donations
 
 Bitcoin Address (BTC):
-* 15G2BTErGg3i8zTmLfKYStUKtqDLXz6Jc9
+* bc1qcsh3zxlrmfmeyz38j7uzk8z2g2qtuctdtttttp
 
 Ethereum Address (ETH):
-* 0x0a42cE58f6f42516d8cc7B1831d01d4391F59Ef4
+* 0x5c9D5F4fC058726c2Fe76463FB21DDdfCff0bc44
 
 Monero Address (XMR):
 * 42q4HmXdsp1XgNCrDmPubL8ndtgG2JBtmZMEn28sB4XtEGHhwYojvB65HXPidByfNUFSzxg6ysQsHUHa3ZSrsKLX5pTkCET
