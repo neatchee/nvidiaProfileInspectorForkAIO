@@ -1,7 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomSettingNames>
   <Settings>
-        <!--<CustomSetting>
+  <CustomSetting>
+      <UserfriendlyName>RTX HDR - Quality</UserfriendlyName>
+      <HexSettingID>0x00432F84</HexSettingID>
+      <GroupName>0.1 - RTX - Volatile (lost on driver update)</GroupName>
+      <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Off (0x00)</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Enabled (Low Quality) (0x06)</UserfriendlyName>
+          <HexValue>0x00000006</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Enabled (Medium Quality) (0x0A)</UserfriendlyName>
+          <HexValue>0x0000000A</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Enabled (VeryHigh Quality) (0x02)</UserfriendlyName>
+          <HexValue>0x00000002</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Enabled + Indicator (VeryHigh) (0x03)</UserfriendlyName>
+          <HexValue>0x00000003</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Enabled + Indicator + Debug (VeryHigh) (0x23)</UserfriendlyName>
+          <HexValue>0x00000023</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    <CustomSetting>
+      <UserfriendlyName>RTX HDR - UNKNOWN SETTING (required for RTX HDR)</UserfriendlyName>
+      <HexSettingID>0x1077A11A</HexSettingID>
+      <GroupName>0.1 - RTX - Volatile (lost on driver update)</GroupName>
+      <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Off</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>On</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    <CustomSetting>
+      <UserfriendlyName>RTX HDR - Enable Game Filters</UserfriendlyName>
+      <HexSettingID>0x00980896</HexSettingID>
+      <GroupName>0.1 - RTX - Volatile (lost on driver update)</GroupName>
+      <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Off</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>On</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    <CustomSetting>
+      <UserfriendlyName>RTX HDR - Enabled</UserfriendlyName>
+      <HexSettingID>0x00DD48FB</HexSettingID>
+      <GroupName>0.1 - RTX - Volatile (lost on driver update)</GroupName>
+      <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Off</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>On</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    <CustomSetting>
+      <UserfriendlyName>RTX HDR - Peak Brightness (NVIDIA App/Freestyle only)</UserfriendlyName>
+      <HexSettingID>0x00DD48FC</HexSettingID>
+      <GroupName>0.1 - RTX - Volatile (lost on driver update)</GroupName>
+      <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
+      <SettingMasks />
+    </CustomSetting>
+    <CustomSetting>
+      <UserfriendlyName>RTX HDR - Middle Grey (NVIDIA App/Freestyle only)</UserfriendlyName>
+      <HexSettingID>0x00DD48FD</HexSettingID>
+      <GroupName>0.1 - RTX - Volatile (lost on driver update)</GroupName>
+      <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
+      <SettingMasks />
+    </CustomSetting>
+    <CustomSetting>
+      <UserfriendlyName>RTX HDR - Contrast (NVIDIA App/Freestyle only)</UserfriendlyName>
+      <HexSettingID>0x00DD48FE</HexSettingID>
+      <GroupName>0.1 - RTX - Volatile (lost on driver update)</GroupName>
+      <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
+      <SettingMasks />
+    </CustomSetting>
+    <CustomSetting>
+      <UserfriendlyName>RTX HDR - Saturation (NVIDIA App/Freestyle only)</UserfriendlyName>
+      <HexSettingID>0x00DD48FF</HexSettingID>
+      <GroupName>0.1 - RTX - Volatile (lost on driver update)</GroupName>
+      <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
+      <SettingMasks />
+    </CustomSetting>
+		      <!--<CustomSetting>
             <HexSettingID>0x0005F512</HexSettingID>
             <Hidden>true</Hidden>
         </CustomSetting>
@@ -5679,11 +5791,11 @@
     </CustomSetting>
 
     <!-- nvapp settings -->
-    <CustomSetting>
+    <!-- <CustomSetting>
       <UserfriendlyName>RTX HDR</UserfriendlyName>
       <HexSettingID>0x00DD48FB</HexSettingID>
       <Description />
-      <GroupName>5.1 - NVApp</GroupName>
+      <GroupName>0.1 - RTX - Volatile (lost on driver update)</GroupName>
       <SettingValues>
         <CustomSettingValue>
           <UserfriendlyName>Off</UserfriendlyName>
@@ -5695,7 +5807,7 @@
         </CustomSettingValue>
       </SettingValues>
       <SettingMasks />
-    </CustomSetting>
+    </CustomSetting> -->
 
     <!-- from https://github.com/Orbmu2k/nvidiaProfileInspector/issues/181 -->
     <CustomSetting>
@@ -5740,7 +5852,7 @@
       <UserfriendlyName>RTX Dynamic Vibrance</UserfriendlyName>
       <HexSettingID>0x00980880</HexSettingID>
       <Description />
-      <GroupName>5.1 - NVApp</GroupName>
+      <GroupName>0.1 - RTX - Volatile (lost on driver update)</GroupName>
       <SettingValues>
         <CustomSettingValue>
           <UserfriendlyName>Off</UserfriendlyName>
@@ -5757,7 +5869,7 @@
       <UserfriendlyName>RTX Dynamic Vibrance Value</UserfriendlyName>
       <HexSettingID>0x00ABAB22</HexSettingID>
       <Description />
-      <GroupName>5.1 - NVApp</GroupName>
+      <GroupName>0.1 - RTX - Volatile (lost on driver update)</GroupName>
       <SettingValues>
         <CustomSettingValue>
           <UserfriendlyName>0</UserfriendlyName>
@@ -6170,7 +6282,7 @@
       <UserfriendlyName>RTX Dynamic Vibrance Saturation</UserfriendlyName>
       <HexSettingID>0x00ABAB13</HexSettingID>
       <Description />
-      <GroupName>5.1 - NVApp</GroupName>
+      <GroupName>0.1 - RTX - Volatile (lost on driver update)</GroupName>
       <SettingValues>
         <CustomSettingValue>
           <UserfriendlyName>0</UserfriendlyName>
