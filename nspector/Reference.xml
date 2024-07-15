@@ -113,6 +113,137 @@
       <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
       <SettingMasks />
     </CustomSetting>
+    <CustomSetting>
+      <UserfriendlyName>DLSS 3.1.11+ - Force all quality levels to DLAA (base profile only)</UserfriendlyName>
+      <HexSettingID>0x10E41DF4</HexSettingID>
+      <GroupName>0.2 - DLSS - Volatile (lost on driver update)</GroupName>
+      <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Off</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>On - All levels will act as DLAA (base profile only)</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    <CustomSetting>
+      <UserfriendlyName>DLSS 3.1.11+ - Forced scaling ratio (base profile only)</UserfriendlyName>
+      <HexSettingID>0x10E41DF5</HexSettingID>
+      <GroupName>0.2 - DLSS - Volatile (lost on driver update)</GroupName>
+      <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Off</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Render at 0.25x native</UserfriendlyName>
+          <HexValue>0x3E800000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Render at 0.33x native (aka UltraPerformance)</UserfriendlyName>
+          <HexValue>0x3EAAAAAB</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Render at 0.40x native</UserfriendlyName>
+          <HexValue>0x3ECCCCCD</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Render at 0.50x native (aka Performance)</UserfriendlyName>
+          <HexValue>0x3F000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Render at 0.58x native (aka Balanced)</UserfriendlyName>
+          <HexValue>0x3F147AE1</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Render at 0.6666x native (aka Quality)</UserfriendlyName>
+          <HexValue>0x3F2AAAAA</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Render at 0.75x native</UserfriendlyName>
+          <HexValue>0x3F400000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Render at 0.77x native (aka UltraQuality)</UserfriendlyName>
+          <HexValue>0x3F451EB8</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Render at 0.80x native</UserfriendlyName>
+          <HexValue>0x3F4CCCCD</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Render at 0.85x native</UserfriendlyName>
+          <HexValue>0x3F59999A</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Render at 0.90x native</UserfriendlyName>
+          <HexValue>0x3F666666</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Render at 0.95x native</UserfriendlyName>
+          <HexValue>0x3F733333</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Render at 0.99x native</UserfriendlyName>
+          <HexValue>0x3F7D70A4</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Render at 0.999x native (for games that break with DLAA/1.00x)</UserfriendlyName>
+          <HexValue>0x3F7FBE77</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Render at 1.00x native</UserfriendlyName>
+          <HexValue>0x3F800000</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    <CustomSetting>
+      <UserfriendlyName>DLSS 3.1.11+ - Forced DLSS3.1 preset letter (base profile only)</UserfriendlyName>
+      <HexSettingID>0x10E41DF3</HexSettingID>
+      <GroupName>0.2 - DLSS - Volatile (lost on driver update)</GroupName>
+      <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>N/A</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Preset A</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Preset B</UserfriendlyName>
+          <HexValue>0x00000002</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Preset C</UserfriendlyName>
+          <HexValue>0x00000003</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Preset D</UserfriendlyName>
+          <HexValue>0x00000004</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Preset E</UserfriendlyName>
+          <HexValue>0x00000005</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Preset F</UserfriendlyName>
+          <HexValue>0x00000006</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Preset G (unused)</UserfriendlyName>
+          <HexValue>0x00000007</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
 		      <!--<CustomSetting>
             <HexSettingID>0x0005F512</HexSettingID>
             <Hidden>true</Hidden>
@@ -5790,25 +5921,6 @@
       <SettingMasks />
     </CustomSetting>
 
-    <!-- nvapp settings -->
-    <!-- <CustomSetting>
-      <UserfriendlyName>RTX HDR</UserfriendlyName>
-      <HexSettingID>0x00DD48FB</HexSettingID>
-      <Description />
-      <GroupName>0.1 - RTX - Volatile (lost on driver update)</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Off</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>On</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting> -->
-
     <!-- from https://github.com/Orbmu2k/nvidiaProfileInspector/issues/181 -->
     <CustomSetting>
       <UserfriendlyName>CUDA - Sysmem Fallback Policy</UserfriendlyName>
@@ -5849,7 +5961,7 @@
       <SettingMasks />
     </CustomSetting>
     <CustomSetting>
-      <UserfriendlyName>RTX Dynamic Vibrance</UserfriendlyName>
+      <UserfriendlyName>RTX Dynamic Vibrance - Enabled</UserfriendlyName>
       <HexSettingID>0x00980880</HexSettingID>
       <Description />
       <GroupName>0.1 - RTX - Volatile (lost on driver update)</GroupName>
@@ -5866,7 +5978,7 @@
       <SettingMasks />
     </CustomSetting>
     <CustomSetting>
-      <UserfriendlyName>RTX Dynamic Vibrance Value</UserfriendlyName>
+      <UserfriendlyName>RTX Dynamic Vibrance - Value</UserfriendlyName>
       <HexSettingID>0x00ABAB22</HexSettingID>
       <Description />
       <GroupName>0.1 - RTX - Volatile (lost on driver update)</GroupName>
@@ -6279,7 +6391,7 @@
       <SettingMasks />
     </CustomSetting>
     <CustomSetting>
-      <UserfriendlyName>RTX Dynamic Vibrance Saturation</UserfriendlyName>
+      <UserfriendlyName>RTX Dynamic Vibrance - Saturation</UserfriendlyName>
       <HexSettingID>0x00ABAB13</HexSettingID>
       <Description />
       <GroupName>0.1 - RTX - Volatile (lost on driver update)</GroupName>
