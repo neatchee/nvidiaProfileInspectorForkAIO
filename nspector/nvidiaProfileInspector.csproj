@@ -245,6 +245,7 @@
   <ItemGroup>
     <Content Include="CustomSettingNames.xml">
       <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Native\NVAPI\NvApiDriverSettings.h" />
     <Content Include="Reference.xml">
