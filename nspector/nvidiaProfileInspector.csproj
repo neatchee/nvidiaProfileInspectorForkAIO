@@ -19,10 +19,29 @@
     <ApplicationVersion>2.4.2.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <UseWindowsForms>true</UseWindowsForms>
     <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
   </PropertyGroup>
+
+  <PropertyGroup Label="Assembly Info">
+    <Title>nvidiaProfileInspector</Title>
+    <Description>Inspects NVIDIA profiles...</Description>
+    <Authors>neatchee</Authors>
+    <Product>NVIDIA Profile Inspector</Product>
+    <Copyright>Orbmu2k: MIA</Copyright>
+    <AssemblyVersion>2.4.2.3</AssemblyVersion>
+    <FileVersion>2.4.2.3</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup Label="Extra Assembly Info">
+    <AssemblyAttribute Include="System.Runtime.InteropServices.ComVisibleAttribute">
+      <_Parameter1>false</_Parameter1>
+    </AssemblyAttribute>
+    <AssemblyAttribute Include="System.Runtime.InteropServices.GuidAttribute">
+      <_Parameter1>c2fe2861-54c5-4d63-dead-30472019bed3</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+  
   <PropertyGroup>
     <RollForward>LatestMinor</RollForward>
   </PropertyGroup>
